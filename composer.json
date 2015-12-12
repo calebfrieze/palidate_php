@@ -1,0 +1,29 @@
+{
+    "name": "cfrieze/palidate-php",
+    "description": "A PHP library to test your PayPal Integration",
+    "keywords": [
+      "palidate",
+      "rest",
+      "validator",
+      "paypal"
+    ],
+    "homepage": "https://cfrieze.github.io/palidate-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cfrieze",
+            "email": "developer@purblind.ninja",
+            "homepage": "http://www.purblind.ninja",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Palidate\\Palidate\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+      "php" : ">=5.5.0"
+    }
+}
