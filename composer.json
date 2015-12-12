@@ -1,5 +1,5 @@
 {
-    "name": "cfrieze/palidate-php",
+    "name": "palidate/palidate",
     "description": "A PHP library to test your PayPal Integration",
     "keywords": [
       "palidate",
