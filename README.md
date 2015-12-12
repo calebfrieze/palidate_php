@@ -8,13 +8,15 @@ composer require "palidate/palidate"
 ```
 
 ```php
+use Palidate\Palidate\Palidate;
+
 $options = [
   'env' => 'live', 
   'clientId' => 'Your Client Id', 
   'clientSecret' => 'Your Client Secret'
 ];
 
-$palidate = new Palidate\Palidate($options);
+$palidate = new Palidate($options);
 echo '<pre>';
 print_r($palidate->palidate());
 ```
