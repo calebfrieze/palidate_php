@@ -4,10 +4,11 @@ A PHP library to test your PayPal REST Integration.
 Install the module and use the starting code below.
 
 ``` bash
-composer require palidate
+composer require "palidate/palidate"
 ```
 
 ```php
+require_once('./src/Palidate.php');
 
 $options = [
   'env' => 'live', 
@@ -18,7 +19,6 @@ $options = [
 $palidate = new Palidate\Palidate($options);
 echo '<pre>';
 print_r($palidate->palidate());
-
 ```
 
 The code above tests your credentials and will return an array with a status key that is either "pass" or "fail".
