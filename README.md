@@ -8,8 +8,6 @@ composer require "palidate/palidate"
 ```
 
 ```php
-require_once('./src/Palidate.php');
-
 $options = [
   'env' => 'live', 
   'clientId' => 'Your Client Id', 
